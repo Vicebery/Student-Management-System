@@ -1,0 +1,36 @@
+﻿.returnLink{
+    margin-top:5px;
+    margin-left:40px;
+    font-size:20px;
+}
+
+.courseDetails{
+    width:90%;
+    margin:0 auto;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
+.Cdescrible{
+    width:700px;
+    line-height:200%;
+    font-family:STSong;
+    font-size:18px;
+    padding-left:50px;
+    padding-right:80px;
+    border-right:1px black solid;
+}
+
+.courseTitle{
+    width:80%;
+    font-size:24px;
+    text-align:center;
+    margin:0 auto;
+    margin-bottom:15px;
+}
+
+.Cinforamtion {
+    width:300px;
+    text-align:center;
+
+}

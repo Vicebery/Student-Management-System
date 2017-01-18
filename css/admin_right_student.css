@@ -1,0 +1,39 @@
+﻿body {
+}
+.ars_content{
+    margin-left:40px;
+}
+/*头部菜单搜索*/
+.ars_top{
+    width:1000px;
+    height:60px;
+    margin-top:10px;
+}
+.top_lbl{
+    vertical-align:middle; /*内容垂直居中*/
+    margin:15px 0 0 30px;
+}
+.top_btn{
+   vertical-align:middle;
+    margin-top:10px;
+    color:#1e90ff;
+}
+.top_btn :hover{
+    color:red;
+}
+/*信息详情*/
+.infolist{
+    text-align:center;
+     width:1000px;
+}
+#cphBody_content_grdv_ars{
+     width:1000px;
+     line-height:40px;
+     border:1px dotted #1E90ff;
+}
+.btn_ars_detail{
+    color:#1E90ff;
+}
+.btn_ars_detail:hover{
+    color:orangered;
+}

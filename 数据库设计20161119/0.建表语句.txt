@@ -1,0 +1,194 @@
+CREATE TABLE tb_Student
+(
+Sno char(16) primary key,
+Sname nvarchar(8),
+Ssex char(2) check(Ssex in ('男','女')),
+Sbirthday char(14),
+Snative varchar(40),
+SentranceTime char(14),
+SpoliticalFace nchar(12),
+Saddress varchar(50),
+SidNum char(18),
+Stel char(11) null,
+Semail varchar(30) null,
+Snation char(10),
+Spicture varbinary(max) null,
+Snote varchar(6) null,
+Sextra1 varchar(6) null,
+Sextra2 varchar (6) null,
+Sextra3 varchar(6) null,
+Sextra4 varchar (6) null,
+Sextra5 varchar(6) null
+)
+
+CREATE TABLE tb_College
+(
+Coid char(2) primary key,
+Ccollege varchar(30) not null,
+Cocreatedate varchar(30),
+Coattribute varchar(10),
+Copremier varchar(16),
+Coinfo varchar(30),
+Cosort char(2),
+Coextra1 varchar(6) null,
+Coextra2 varchar (6) null,
+Coextra3 varchar(6) null,
+Coextra4 varchar (6) null,
+Coextra5 varchar(6) null
+)
+
+CREATE TABLE tb_Course
+(
+Cno char(5) primary key,
+Cname varchar(40),
+Credit decimal(2,1),
+Cnature char(4),
+Ctime varchar(6) null,
+Coid char(2) not null,
+Ccollege varchar(30) not null,
+Ccreatedate date,
+Cpicture varchar(40),
+Cextra1 varchar(6) null,
+Cextra2 varchar (6) null,
+Cextra3 varchar(6) null,
+Cextra4 varchar (6) null,
+Cextra5 varchar(6) null,
+FOREIGN KEY (Coid) REFERENCES tb_College(Coid)
+)
+
+CREATE TABLE tb_Teacher
+(
+Tno char(16) primary key,
+Tname nvarchar(8),
+Tsex char(2) check(Tsex in ('男','女')),
+Tbirthday char(14),
+Tnative varchar(40),
+Ttitle varchar(6),
+TentranceTime char(14),
+Coid char(2),
+Ccollege varchar(30),
+TpoliticalFace nchar(12),
+Tnation char(10),
+Taddress varchar(50),
+TidNum char(18),
+Ttel char(11) null,
+Temail varchar(30) null,
+Tpicture varbinary(max) null,
+Tnote varchar(6) null,
+Textra1 varchar(6) null,
+Textra2 varchar (6) null,
+Textra3 varchar(6) null,
+Textra4 varchar (6) null,
+Textra5 varchar(6) null,
+FOREIGN KEY (Coid) REFERENCES tb_College(Coid)
+)
+
+CREATE TABLE tb_TC(
+Tno char(16) NOT null,
+Tname nvarchar(8) NOT null,
+Cno char(5) NOT NULL,
+Cname varchar(40) NOT null,
+TCcreatedate date,
+TCnumber smallint,
+TCdate varchar(16),
+TCtime_add varchar(30),
+TCnote varchar(6) null,
+TCextra1 varchar(6) null,
+TCextra2 varchar (6) null,
+TCextra3 varchar(6) null,
+TCextra4 varchar (6) null,
+TCextra5 varchar(6) null
+PRIMARY KEY(Tno,Cno),
+FOREIGN KEY (Tno) REFERENCES tb_Teacher(Tno),
+FOREIGN KEY (Cno) REFERENCES tb_Course(Cno)
+)
+
+CREATE TABLE tb_SC(
+Sno char(16) NOT null,
+Sname nvarchar(8)  NOT null,
+Cno char(5) NOT NULL,
+Cname varchar(40)  NOT null,
+Tno char(16) NOT null,
+Grade1 decimal(5,2) null,
+Grade2 decimal(5,2) null,
+Grade decimal(5,2) null,
+SCsort char(5) null,
+SCnote varchar(6) null,
+SCextra1 varchar(6) null,
+SCextra2 varchar (6) null,
+SCextra3 varchar(6) null,
+SCextra4 varchar (6) null,
+SCextra5 varchar(6) null
+PRIMARY KEY(Sno,Cno,Tno),
+FOREIGN KEY (Sno) REFERENCES tb_Student(Sno),
+FOREIGN KEY (Tno,Cno) REFERENCES tb_TC(Tno,Cno)
+)
+
+CREATE TABLE tb_SLogin(
+Sno char(16) primary key,
+Sname nvarchar(8) not null,
+SLpassword varchar(20) NOT NULL,
+SLnote varchar(6) null,
+SLextra1 varchar(6) null,
+SLextra2 varchar (6) null,
+SLextra3 varchar(6) null,
+SLextra4 varchar (6) null,
+SLextra5 varchar(6) null
+FOREIGN KEY (Sno) REFERENCES tb_Student(Sno)
+)
+
+CREATE TABLE tb_TLogin(
+Tno char(16) primary key,
+Tname nvarchar(8) not null,
+TLpassword varchar(20) NOT NULL,
+TLnote varchar(6) null,
+TLextra1 varchar(6) null,
+TLextra2 varchar (6) null,
+TLextra3 varchar(6) null,
+TLextra4 varchar (6) null,
+TLextra5 varchar(6) null
+FOREIGN KEY (Tno) REFERENCES tb_Teacher(Tno)
+)
+
+CREATE TABLE tb_AdminLogin(
+ALno char(6) primary key,
+ALname nvarchar(8) not null,
+ALpassword varchar(20) NOT NULL,
+ALnote varchar(6) null,
+ALextra1 varchar(6) null,
+ALextra2 varchar (6) null,
+ALextra3 varchar(6) null,
+ALextra4 varchar (6) null,
+ALextra5 varchar(6) null
+);
+
+//新闻公告建表
+
+CREATE TABLE [dbo].[news] (
+    [id]       SMALLINT      NULL,
+    [display]  VARCHAR (MAX) NULL,
+    [default1] VARCHAR (MAX) NULL,
+    [default2] VARCHAR (MAX) NULL,
+    [default3] VARCHAR (MAX) NULL
+);
+
+
+CREATE TABLE [dbo].[notice] (
+    [id]       SMALLINT      NULL,
+    [display]  VARCHAR (MAX) NULL,
+    [default1] NCHAR (10)    NULL,
+    [default2] NCHAR (10)    NULL,
+    [default3] NCHAR (10)    NULL
+);
+
+
+//录分权限表
+create table tb_Limit(
+	id char(5) primary key,
+	isOpen char(2) check(isOpen in ('是','否')),
+	Textra1 varchar(6) null,
+	Textra2 varchar (6) null,
+	Textra3 varchar(6) null,
+	Textra4 varchar (6) null,
+	Textra5 varchar(6) null
+);

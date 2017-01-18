@@ -1,0 +1,68 @@
+﻿body {
+}
+
+.center1_password_management{
+    margin: 0 auto;
+    margin-top:30px;
+    width: 894px;
+    padding: 0 8px 50px 0;
+    border-left: 4px solid #eceff1;
+    border-right: 4px solid #eceff1;
+    background: #fff;
+    min-height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+.title_r {
+    margin: 30px 3px 10px 8px;
+    border-bottom: 1px dashed #ddd;
+    font-size: 16px;
+    text-indent: 2px;
+}
+
+.personal_info li blockquote {
+    float: left;
+    width: 210px;
+    padding: 8px 3px 0 0;
+    font-size: 14px;
+    text-align: right;
+    
+}
+
+.personal_info{
+    width: 710px;
+    padding: 8px 0 20px 35px;
+    line-height:10px;
+    position: relative;
+    top: 1px;
+    left: 136px;
+}
+
+.personal_info ul {
+    border: 2px solid #fff;
+    padding: 20px 0 0 0;
+     
+}
+
+.personal_info ul li {   
+    clear: both;
+    width: 693px;
+    padding: 0 0 17px 0;
+    display: block;
+    overflow: hidden;
+    height:35px;
+    /*margin-bottom:20px;*/
+     
+}
+
+.input_text {
+    width: 275px;
+    height: 29px;
+    line-height: 29px;
+    padding: 0 5px;
+    border: 1px solid #3197b5;
+    font-size: 14px;
+    color: #333;
+    background: #fff;
+}

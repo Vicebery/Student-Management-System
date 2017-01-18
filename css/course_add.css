@@ -1,0 +1,53 @@
+﻿body {
+}
+.addC_top{
+
+}
+.top_lbl{
+    vertical-align:middle; /*内容垂直居中*/
+    margin:15px 0 0 30px;
+}
+.top_btn{
+    vertical-align:middle;
+    margin-top:10px;
+    background-color:white;
+}
+.add{
+    width:800px;
+    height:500px;
+    /*background-color:gold;*/
+    border:1px solid #6699FF;
+    padding-top:20px;
+}
+.add h2{
+    padding-bottom:30px;
+}
+
+.add h2{
+    text-align:center;
+}
+
+.add_text{
+    width:400px;
+    line-height:40px;
+    /*text-align:center;*/
+   
+    margin-left:130px;
+}
+
+.add_text ul{
+    list-style:none;
+}
+
+.add_picture{
+    width:400px;
+    position:relative;
+    margin-left:440px;
+    margin-top:-250px;
+    line-height:40px;
+}
+
+.Submit{
+    width:800px;
+    margin-left:700px;
+}

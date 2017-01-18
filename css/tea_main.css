@@ -1,0 +1,63 @@
+﻿body {
+}
+
+.header {
+    margin-top:20px;
+    margin-left:30px;
+    margin-bottom:30px;
+    font-size:20px;
+    font-family:STSong;
+    color:blue;
+}
+.nav {
+    margin: 0px;
+    padding: 0px;
+    height:500px;
+    border-top: 2px solid #eceff1;
+    border-bottom: 2px solid #eceff1;
+}
+
+.guide_info{
+    clear: both;
+    position: relative;
+    width: 240px;
+    height: 220px;
+    background-repeat: no-repeat;
+    margin-top :40px;
+    margin-left:50px;
+}
+.guide_psw{
+    position: relative;
+    width: 240px;
+    height: 220px;
+    margin-top: -150px;
+    margin-left:300px;
+    background-repeat: no-repeat;
+}
+
+.guide_course{
+    position: relative;
+    width: 240px;
+    height: 220px;
+    margin-top: -180px;
+    margin-left:560px;
+    background-repeat: no-repeat;
+}
+
+.guide_grade {
+    position: relative;
+    width: 240px;
+    height: 220px;
+    margin-top: -180px;
+    margin-left:820px;
+    background-repeat: no-repeat;
+}
+
+.guide_exit {
+    position: relative;
+    width: 240px;
+    height: 220px;
+    margin-top: -180px;
+    margin-left:1070px;
+    background-repeat: no-repeat;
+}

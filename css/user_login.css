@@ -1,0 +1,163 @@
+﻿ @charset "utf-8";
+/* CSS Document */
+/*Author: Vicebery
+*Date: 20161009
+*About: login
+*/
+ body{font:12px/1.5 'MicroSoft YaHei', 'SimSun';}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input pre {
+    padding: 0;
+    margin: 0;
+}
+img {
+    border: none;
+}
+ul {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+i {
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+
+.login_bg{
+	background:url(../images/background/User_login_bg.png) no-repeat center top;
+	 height:640px;
+}
+.login_content{
+	width: 1000px;
+	margin: 0 auto;
+}
+.login_logo{
+	width: 255px;
+	padding: 76px 0 0 353px;
+}
+.login_detailed{
+	width: 404px;
+	height: 438px;
+	margin: 50px auto 0;
+}
+.login_tab{
+	height: 55px;
+    width: 403px;
+     line-height: 55px;
+     text-align: center;
+    letter-spacing:20px;
+	background: url(../images/icon/login_tab_bg.png) no-repeat;
+	overflow: hidden;
+	font-size: 20px;
+	color: #e1e1e1;
+}
+/*.login_tab li {
+    width: 201px;
+    height: 55px;
+    line-height: 55px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 1px;
+}
+.login_hota {
+    background: #fff;
+    color: #333;
+}
+.login_hotb {
+}*/
+
+.login_tab_left, .login_tab_right {
+    width: 403px;
+    background: #FFF;
+}
+.login_user {
+    height: 362px;
+}
+.fl {
+    float: left;
+    display: inline;
+}
+.login_user_content {
+    width: 330px;
+    margin-left: 36px;
+    padding-top: 45px;
+}
+.login_user_content ul li{
+    margin-bottom: 6px;
+}
+.login_user_content span {
+    color: #ff6c00;
+}
+.login_text{
+	width: 301px;
+	height: 44px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	color: black;
+	padding-left: 6px;
+	line-height: 44px;
+	font-family: "微软雅黑";
+}
+.button_blue{
+	background: #35dad4;
+	width: 301px;
+	height: 44px;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 42px;
+	font-family: "微软雅黑";
+}
+.login_user_yam{
+
+}
+.login_user_yam ul {
+    overflow: hidden;
+}
+.login_user_yam ul li {
+    float: left;
+    margin-right: 5px;
+}
+.login_user_yzm_img{
+    background: url(../images/icon/yzm.PNG) no-repeat;
+    width:121px;
+    height:44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+.login_user_yam i {
+    color: #666;
+    font-weight: normal;
+    line-height: 44px;
+}
+.login_user_yam i:hover{
+    color: #35dad4;
+}
+.login_text_yzm {
+    width: 88px;
+    height: 44px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #ccc;
+    padding-left: 6px;
+    line-height: 44px;
+    font-family: "微软雅黑";
+}
+.login_text_yzm:focus{
+    color: black;
+}
+
+.mt25 {
+    margin-top: 15px;
+}
+.login_user_content a {
+    color: #666;
+}

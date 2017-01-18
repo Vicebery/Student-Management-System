@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>学生成绩管理系统</title>
+    <link href="css/MasterPage.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="divLogin">登录>></div>
+        <div class="linkAndSearch">
+           <div class="choiceIdentity">
+            <asp:Button ID="btnStuLink" runat="server" BackColor="steelblue" BorderStyle="None" Height="45px" Text="学生" Width="80px" OnClick="btnStuLink_Click" Font-Size="Medium" ForeColor="White" />
+            <asp:Button ID="btnTeaLink" runat="server" BackColor="steelblue" Height="45px" Text="教师" Width="80px" BorderStyle="None" OnClick="btnTeaLink_Click" Font-Size="Medium" ForeColor="White" />
+            <asp:Button ID="btnAdmLink" runat="server" BackColor="steelblue" Height="45px" Text="管理员" Width="80px" BorderStyle="None" OnClick="btnAdmLink_Click" Font-Size="Medium" ForeColor="White" />
+            </div>
+            <div class="returnIndex"><a href="/aspx/index.aspx">返回首页</a></div>
+
+            </div>
+        <div class="top">
+            
+            <img src="~/images/logo/logo1.png" id="logo" runat="server" />
+
+            <div class="text">
+            <h1>学生成绩管理系统</h1> 
+            <div class="divSubhead">日思日睿 笃志笃行</div>
+            </div>
+
+           </div> 
+        
+
+        <asp:ContentPlaceHolder id="cphBody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div class="footer">
+            <div class="infLeft">
+                <ul>
+                    <li>湖大概况</li>  
+                    <li>招生资助</li>
+                    <li>院系设置</li> 
+                    <li>教育教学</li>
+                </ul>
+            </div>
+            
+            <div class="infRight">
+                <ul>
+                    <li>科学研究</li>  
+                    <li>合作交流</li>
+                    <li>校园生活</li>
+                    <li>观光访问</li>
+                </ul>
+            </div>
+            <div id="divLogo">
+                <img src="images/logo/logo1.png" runat="server" />
+            </div>
+            <div id="divMotto1">
+                日思日睿
+            </div> 
+            <div id="divMotto2">
+                笃志笃行
+            </div>
+        </div>      
+        </div>
+        <div class="bottom">
+            <br />
+            版权所有&copy;湖北大学2014级计算机科学与技术专业小兄弟团队
+			联系电话：12345678　邮箱：1343194370@qq.com　邮编：430062 
+        </div>
+    
+    </form>
+</body>
+</html>

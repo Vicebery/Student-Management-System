@@ -1,0 +1,89 @@
+﻿#cphBody_content_course_main{
+    width:100%;
+    /*height:100%;*/
+    /*height:auto;*/
+}
+#course_top{
+    width:auto ;
+    height:50px;
+    /*background-color:blue;*/
+}
+#course_content{
+    width:100%;
+    height:1040px;
+}
+.course_content_header{
+    width:auto ;
+    height:50px;
+    background-color:white;
+    margin-bottom:10px;
+}
+.course_content_table{
+    width:auto;
+    height:978px;
+    margin-top:10px;
+}
+
+.course_top_lbl{
+    vertical-align:middle; /*内容垂直居中*/
+    margin:15px 0 0 30px;
+}
+.course_top_btn{
+   vertical-align:middle;
+    margin-top:10px;
+    color:#1e90ff;
+}
+#search{
+    margin:15px 0 15px 20px;
+    width:600px;
+    float:left;
+}
+.ddlist{
+    width:250px;
+    height:30px;
+}
+.txtbox_search{
+    width:250px;
+    height:28px;
+    font-size:16px;
+}
+.btn_search{
+    height:30px;
+    width:50px;
+    text-align:center;
+}
+#cphBody_content_btn_add{
+    float:left;
+    margin:15px 0 15px 300px;
+}
+
+#cphBody_content_grdvCourseList{
+    width:1076px;
+    line-height:40px;
+    text-align:center;
+    
+}
+
+.bfd{
+    border:1px dotted orange;
+}
+
+.ifd{
+    width:60px;
+    height:60px;
+    text-align:center;
+    margin-top:15px;
+}
+
+.btnModify{
+    color:dodgerblue;
+}
+.btnModify:hover{
+    color:orangered;
+}
+.btnDelete{
+    color:dodgerblue;
+}
+.btnDelete:hover{
+    color:orangered;
+}

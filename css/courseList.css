@@ -1,0 +1,118 @@
+﻿body {
+    margin:0px;
+    padding:0px;
+}
+
+.searchCourse{
+    padding-bottom:15px;
+}
+
+.returnLink{
+    margin-top:5px;
+    margin-left:50px;
+    font-size:20px;
+}
+
+#cphBody_ddlSearch {
+    width:200px;
+    height:25px;
+    font-size:16px;
+    margin-right:20px;
+    margin-left:400px;
+    border-color:aqua;
+    margin-bottom:20px;
+}
+
+#cphBody_txtSearchCourse {
+    border:1px solid aqua;
+    width:200px;
+    height:23px;
+    font-size:16px;
+    margin-bottom:20px;
+}
+
+#tabCouseMess{
+    width:1200px;
+    height:auto;
+    margin:0 auto;
+}
+
+.courseMess{
+    width:240px;
+    height:auto;
+    margin-left:20px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.coursePicture{
+    /*margin-left:20px;*/
+    
+}
+
+.courseDetail{
+    /*margin-left:20px;
+    width:200px;*/
+}
+
+.btnTurn1{
+    width:60px;
+    height:30px;
+    text-align:center;
+    line-height:20px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.btnTurn2{
+    width:40px;
+    height:30px;
+    text-align:center;
+    line-height:20px;
+    margin-left:3px;
+    margin-right:3px;
+}
+
+.pageTurning{
+    clear:both;
+    margin-top:20px;
+    margin-left:350px;
+    padding-bottom:40px;
+}
+
+#oneCourse{
+    width:300px;
+    height:300px;
+    float:left;
+    text-align:center;
+}
+
+.coursePic{
+    width:150px;
+    height:150px;
+    margin:0 auto;
+    color:blue;
+}
+.coursePic:hover{
+    color:orangered;
+}
+
+.courseNa a{
+    color:blue;
+}
+.courseNa a:hover{
+    color:orangered;
+}
+.courseNat a{
+    color:blue;
+}
+.courseNat a:hover{
+    color:orangered;
+}
+.courseCol a{
+    color:blue;
+}
+.courseCol a:hover{
+    color:orangered;
+}
+

@@ -1,0 +1,46 @@
+﻿.hidden {
+     display:none;
+}
+
+.goto_main{
+    margin-left:50px;
+    margin-top:10px;
+    font-size:20px;
+}
+
+#cphBody_btn_Submit{
+    margin-left:100px;
+    margin-top:20px;
+}
+#cphBody_btn_back{
+    margin-left:630px;
+    margin-top:20px;
+}
+
+#cphBody_chooseCourse{
+    width:1340px;
+    margin:0 auto;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.noChoice{
+    width:45%;
+    margin-left:30px;
+    text-align:center;
+}
+
+.choiced{
+    width:45%;
+    margin-right:30px;
+    text-align:center;
+}
+
+#cphBody_gv_nochoose{
+    width:90%;
+    margin:0 auto;
+}
+#cphBody_gv_choiced{
+    width:90%;
+    margin:0 auto;
+}

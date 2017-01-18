@@ -1,0 +1,23 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+
+.tea_grade{
+    width:90%;
+    text-align:center;
+    margin:20px auto;
+
+}
+
+.goto_main{
+    font-size:20px;
+    margin-top:10px;
+    margin-left:50px;
+}
+
+#cphBody_StudentGridView{
+    width:90%;
+    margin:0 auto;
+    margin-top:10px;
+}

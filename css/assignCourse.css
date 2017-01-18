@@ -1,0 +1,32 @@
+﻿body {
+
+}
+#ac_main{
+
+}
+.aC_top{
+
+}
+.content{
+     width:750px;
+     height:400px;
+     border:1px solid #6699FF;
+     margin:30px 0 0 50px;
+     padding-top:30px;
+}
+.info{
+    width:60%;
+    height:auto;
+    margin:0 auto;
+}
+.box_info{
+    margin:10px 0 0 20px;
+}
+.btn_submit{
+    margin:40px 0 0 400px;
+}
+.aC_bottom{
+
+}
+
+

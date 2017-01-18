@@ -1,0 +1,112 @@
+﻿* {
+    padding: 0;
+    margin: 0 0 0 0px;
+}
+ul,li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+/*设置网页宽度铺满整屏*/
+/*火狐浏览器在1366屏下的全屏宽为1366-19=1347*/
+#admin_content{
+    /*height:1090px;*/
+    min-height:600px;
+    height:auto;
+    overflow:hidden;
+	/*width:1347px;*/
+    width:1295px;
+    margin-top:10px;
+    margin-left:50px;
+}
+#admin_content_left{
+    width:140px;
+    /*height:1060px;*/
+    /*height:600px;*/
+    height:600px;
+    margin-top:30px;
+    float:left;
+    margin-right:35px;
+    /*background-color:pink;*/
+}
+/*.admin_content_left_nav {
+    width:auto;
+    height:auto;
+}*/
+#admin_content_right{
+    width:80%;
+    /*height:1090px;*/
+    min-height:600px;
+    height:auto;
+    float:left;
+}
+.admin_content_left_nav{
+   border: #bdd7f2 1px solid;
+    border-top: #1e90ff 4px solid;
+    border-bottom: #1e90ff 4px solid;
+    background: #ebf7ff url('../images/background/adminnavbg_y.jpg') repeat-y right;
+    margin-left: 10px;
+}
+/*.admin_content_left_navbox{
+    border:1px solid blue;
+    border-left:5px solid blue;
+    width:95%;
+    height:50px;
+    margin:5px 0 5px 2px;
+    background-color:white;
+    line-height:50px;
+    text-align:center;
+}*/
+.admin_content_left_navbox{
+    border-bottom: 1px #98c9ee solid;
+    display: block;
+    text-align: center;
+    position: relative;
+    height: 38px;
+    line-height: 38px;
+}
+/*nav左边背景图*/
+.leftbg {
+    position: absolute;
+    background: url('../images/background/adminnavbg.jpg') no-repeat;
+    width: 11px;
+    height: 52px;
+    left: -11px;
+    top: -4px;
+}
+.leftbg2 {
+    position: absolute;
+    background: url('../images/background/adminnavbg2.jpg') no-repeat;
+    width: 11px;
+    height: 48px;
+    left: -11px;
+    top: -1px;
+}
+.navlist{
+
+}
+.navlist div{
+    height: 28px;
+    line-height: 24px;
+    border-bottom: 1px #98c9ee dotted;
+}
+.navlist div a{
+    display: block;
+    background: #fff;
+    line-height: 28px;
+    height: 28px;
+    color:black;
+    text-align: center;
+}
+/*.admin_content_left_nav li:hover{
+    background-color:red;
+}
+.admin_content_left_nav a{
+    text-decoration:none;
+    color:black;
+}*/
+
+.add{
+    margin:30px auto auto auto;
+}

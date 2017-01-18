@@ -1,0 +1,95 @@
+﻿body {
+}
+
+.center1_password_management{
+    margin: 0 auto;
+    margin-top:30px;
+    width: 894px;
+    padding: 0 8px 50px 0;
+    border-left: 4px solid #eceff1;
+    border-right: 4px solid #eceff1;
+    background: #fff;
+    min-height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.title_r {
+    margin: 10px 3px 10px 8px;
+    border-bottom: 1px dashed #ddd;
+    font-size: 16px;
+    text-indent: 2px;
+}
+
+.token_process {
+    
+    width: 710px;
+    padding: 8px 0 20px 35px;
+    line-height:10px;
+    position: relative;
+}
+
+.token_process ul {
+    border: 2px solid #fff;
+    padding: 20px 0 0 0;
+     
+}
+
+.token_process ul li {   
+    clear: both;
+    width: 693px;
+    padding: 0 0 17px 0;
+    display: block;
+    overflow: hidden;
+    height:35px;
+    /*margin-bottom:20px;*/
+     
+}
+
+.tips_info {
+    position: absolute;
+    margin: 6px 0 0 5px;
+    line-height: 10px;
+    padding-left: 20px;
+    background-position: 0 -72px;
+    color: #f9590d;
+}
+
+
+.token_process li blockquote {
+    float: left;
+    width: 210px;
+    padding: 8px 3px 0 0;
+    font-size: 16px;
+    text-align: right;
+    
+}
+
+
+.input_text {
+    width: 275px;
+    height: 29px;
+    line-height: 29px;
+    padding: 0 5px;
+    border: 1px solid #3197b5;
+    font-size: 16px;
+    color: #333;
+    background: #fff;
+}
+
+.necessary {
+    color:red;
+}
+
+.btn {
+    position:relative;
+    margin-left:250px;
+    top: 0px;
+    left: 18px;
+    width: 442px;
+    font-size:16px;
+}
+
+
+

@@ -1,0 +1,145 @@
+﻿* {
+   
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'微软雅黑';
+    margin:0 auto; 
+    width:1347px;
+}
+
+.linkAndSearch {
+    width:100%;
+    height:50px;
+    line-height:70%;
+    font-size:15px;
+    font-family:'宋体';
+    background-color:steelblue;
+}
+
+.returnIndex{
+    margin-left:1200px;
+    width:80px;
+    margin-top:-20px;
+    font-size:medium;
+}
+.returnIndex a{
+    color:white;
+}
+
+.choiceIdentity{
+    margin-left:100px;
+    line-height:25px;
+    width:260px;
+    height:45px;
+
+}
+
+.divLogin{
+    width:70px;
+    margin-left:20px;
+    line-height:25px;
+    margin-top:10px;
+    float:left;
+    color:white;
+}
+
+.top {
+    width:100%;
+    height:auto;
+    color:black;
+    background-color:dodgerblue;
+}
+
+ .top img{
+        width:255px;
+        height:76px; 
+        position:relative;
+        margin-top:12px;
+        margin-left:15px;
+    top: -4px;
+    left: 13px;
+}
+.text {
+    width:1066px;
+    height:100px;
+    position:relative;
+    margin-left:200px;
+    margin-top:-95px;
+    color:white;
+    left: -15px;
+    font-family:'楷体';
+    top: 1px;
+}
+.text h1 {
+        font-family:KaiTi;
+        margin-left:300px;
+        margin-top:20px;
+        font-size:50px;
+        }
+.divSubhead{
+    margin-left:800px;
+    font-size:30px;
+}
+.footer {
+    clear:both;
+    width:100%;
+    height:145px;
+    background-color:dodgerblue;
+    color:white;
+}
+
+.bottom {
+    width:100%;
+    height:50px;
+    line-height:70%;
+    font-size:15px;
+    text-align:center;
+    font-family:'宋体';
+    background-color:steelblue;
+    color:black;
+}
+
+.infLeft{
+    margin-left:200px;
+    width:120px;
+    float:left;
+    line-height:35px;
+}
+
+.infRight{
+    margin-left:50px;
+    line-height:35px;
+}
+
+ul{
+    list-style:none;
+}
+
+#divLogo{
+    position:relative;
+    margin-top:-110px;
+    margin-left:550px;
+    width:265px;
+}
+
+#divMotto1{
+    position:relative;
+    font-size:30px;
+    font-family:KaiTi;
+    margin-left:960px;
+    margin-top:-80px;
+    color:white;
+    line-height:40px;
+}
+
+#divMotto2{
+    position:relative;
+    font-size:30px;
+    font-family:KaiTi;
+    margin-left:1100px;
+    color:white;
+    line-height:40px;
+}

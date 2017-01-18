@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="admin_content.master.cs" Inherits="admin_content" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <link href="/css/MasterPage.css" rel="stylesheet" type="text/css" />
+     <link href="/css/admin_content.css" rel="stylesheet" type="text/css" />
+    <title>后台管理</title>
+    <asp:ContentPlaceHolder id="head_chirld" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="cphBody" Runat="Server">
+    <div id="admin_content">
+       <%--左边的导航栏，母版页，提供跳转网页接口--%>
+       <div id="admin_content_left">
+            <%--<ul class="admin_content_left_nav">
+                  <a href="admin_right_course.aspx"><li class="admin_content_left_navbox" id="btn_admin_course" >课程管理</li></a>
+                  <a href="admin_right_student.aspx"><li class="admin_content_left_navbox" id="btn_admin_teacher" >学生管理</li></a>
+                  <li class="admin_content_left_navbox" id="btn_admin_student" >教师管理</li>
+                  <li class="admin_content_left_navbox" id="btn_admin_new" >新闻公告</li>
+            </ul>--%>
+           <div class="admin_content_left_nav">
+               <div class="admin_content_left_navbox"><strong>个人中心</strong><div class="leftbg"></div></div>
+               <div class="navlist">
+                   <div><a href="/aspx/admin/myInfo.aspx">我的信息</a></div>
+                   <div><a href="/aspx/admin/modifyPassword.aspx">修改密码</a></div>
+               </div>
+                <div class="admin_content_left_navbox"><strong>课程管理</strong><div class="leftbg2"></div></div>
+               <div class="navlist">
+                   <div><a href="/aspx/admin/admin_right_course.aspx">课程信息</a></div>
+                   <div><a href="/aspx/admin/course_add.aspx">添加新课程</a></div>
+               </div>
+                <div class="admin_content_left_navbox"><strong>学生管理</strong><div class="leftbg2"></div></div>
+               <div class="navlist">
+                   <div><a href="/aspx/admin/admin_right_student.aspx">学生信息</a></div>
+                   <div><a href="/aspx/admin/student_grade.aspx">成绩管理</a></div>
+               </div>
+                <div class="admin_content_left_navbox"><strong>教师管理</strong><div class="leftbg2"></div></div>
+               <div class="navlist">
+                   <div><a href="/aspx/admin/admin_right_teacher.aspx">教师信息</a></div>
+                   <div><a href="/aspx/admin/teacher_course.aspx">课程安排</a></div>
+                   <div><a href="/aspx/admin/teacher_grade.aspx">授权录分</a></div>
+               </div>
+                <div class="admin_content_left_navbox"><strong>新闻公告</strong><div class="leftbg2"></div></div>
+               <div class="navlist">
+                   <div><a href="/aspx/admin/newsChange.aspx">新闻发布</a></div>
+                   <div><a href="/aspx/admin/noticeChange.aspx">公告发布</a></div>
+               </div>
+           </div>
+       </div>
+        <%--右边显示的子窗体--%>
+       <div id="admin_content_right">
+         <asp:ContentPlaceHolder id="content" runat="server">
+
+         </asp:ContentPlaceHolder>
+      </div>
+    </div>
+</asp:Content>
+

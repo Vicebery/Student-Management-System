@@ -1,0 +1,20 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+
+.stu_grade{
+    width:800px;
+    text-align:center;
+    margin:20px auto;
+}
+
+#cphBody_gv_grade{
+    width:100%;
+}
+
+.goto_main{
+    margin-top:10px;
+    margin-left:50px;
+    font-size:20px;
+}

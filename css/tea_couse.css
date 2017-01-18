@@ -1,0 +1,21 @@
+﻿* {
+    margin:0px;
+    padding:0px;
+}
+
+.goto_main{
+    margin-top:10px;
+    margin-left:50px;
+    font-size:20px;
+}
+
+.tea_course{
+    margin-top:50px;
+    text-align:center;
+}
+
+#cphBody_gvTea_course{
+    width:1000px;
+    margin:0 auto;
+    margin-bottom:50px;
+}

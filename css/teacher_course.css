@@ -1,0 +1,34 @@
+﻿body {
+}
+/*头部导航信息*/
+.tc_top{
+    height:80px;
+}
+
+/*具体内容*/
+.content{
+    margin-left:120px;
+}
+
+/*表格样式*/
+.teaTable{
+
+}
+#cphBody_content_grdv_tc{
+     width:800px;
+     line-height:40px;
+     text-align:center;
+     border:1px dotted #1E90ff;
+}
+.btn_assignCourseInfo{
+    color:#1E90ff;
+}
+.btn_assignCourseInfo:hover{
+    color:orangered;
+}
+.teaTable{
+
+}
+.tc_bottom{
+
+}
