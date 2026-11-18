@@ -32,11 +32,12 @@ public partial class AdminLogin : System.Web.UI.Page
 
         string connectionString = SQLHelper.getConnStr();
         SqlConnection connection = new SqlConnection(connectionString);
-        string queryString_Student = "select ALpassword from tb_AdminLogin where ALno=" + Manager_name;
+        string queryString_Student = "select ALpassword from tb_AdminLogin where ALno=@ALno";
 
 
         //----------------打开连接------------------
         SqlCommand cmd = new SqlCommand(queryString_Student, connection);
+        cmd.Parameters.AddWithValue("@ALno", Manager_name);
         string msg = "";       //提取密码
         bool flag = true;        //标记
         try
